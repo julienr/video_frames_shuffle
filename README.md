@@ -1,5 +1,7 @@
 Video frames shuffling
 ======================
+[Demo](http://julienr.github.io/video_frames_shuffle/#0.5)
+
 This is a quick hack to reproduce (not exactly the same, but same idea) the
 experiment in "Temporal Integration Windows for Naturalistic Visual Sequences"
 

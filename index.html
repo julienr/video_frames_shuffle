@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+  <body>
+    <h1>Video frame shuffling experiment</h1>
+    <p>This is an experiment inspired by <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102248#pone-0102248-g003">Temporal Integration Windows for Natural Visual Sequences</a>.
+    In this experiment, researchers shuffled the frames of a video in a random
+    order and evaluated the difficulty to follow the video after shuffling.
+    Shuffling is done over window of a given size.
+    </p>
+    <p>Current shuffle window size : <span id="winsize">&nbsp;</span></p>
+    <p>You can change it by appending #4.3 aftre the url (4.3 is an example,
+      replace by whatever size you want)</p>
+
+    <video class="box" id="video" controls autoplay>
+      <source src="sintel.webm" type='video/webm;codecs="vp8, vorbis"'>
+    </video>
+    <canvas class="box" id="canvas">
+    </canvas>
+    <script type="text/javascript" src="underscore-min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
